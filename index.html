@@ -5,7 +5,7 @@
   </head>
 
    <body>
-    <a href = "bonus.html">BONUS</a>
+    <a href="bonus.html">BONUS</a>
     <h1>Ajit U </h1>
     <h3>My Favourite vacation spot is Shimla</h3>
     <p>
@@ -14,21 +14,29 @@
     </p>
 
     <hr>
-    Activities that we can take up at vacation spot in order of preference.
+    <h3>Activities that we can take up at vacation spot in order of preference.</h3>
     <ol>
 <li>Meditate in harmony with nature</li>
 <li>Trekking, Mountaineering, River rafting</li>
+<ol>
+    <li>These activities help in overall physical and mental growth </li>
+    <li>These activities make one dare hearted</li>
+</ol>
 <li>Play fun games</li>
 <li>Make new friends</li>
 <li>Take up environment Cleanliness drive</li>
     </ol>
 
             
-Unordered list of dishes of food that you can get at your vacation spot.
+<h3>Unordered list of dishes of food that you can get at your vacation spot.</h3>
      <ul> 
         <li>Kesari Halwa</li>
-        <li>Pista ka burfy</li>
-        <li>Paneer tadka</li>
+        <ul>
+           <li>Its a sweet with rich taste</li> 
+           <li>Ghee Kesari tastes amazing</li>
+        </ul>
+        <li>Pista ki burfy</li>
+        <li>Paneer ka tadka</li>
 
 
     </ul>
@@ -36,7 +44,7 @@ Unordered list of dishes of food that you can get at your vacation spot.
         <a href ="mystats.html">Link to Mystats in Index</a>
     </p> 
     <hr>
-    List of recommended SPORTS
+    <h3>List of recommended SPORTS</h3>
     <p>
         A healthy mind rests in a healthy body. Taking up a sport ensures  physical, mental and emotional wellbeing. It helps us build the spirit of teamwork.<br>
      In the above table we list a few sports that one can explore: <br>
@@ -53,7 +61,7 @@ The table consists 3 columns with Names of sports , the reason why that sport co
         </tr>
         
         <tr>
-            <td>Badminton </td>
+            <td>Badminton</td>
             <td>Physical fitness </td>
             <td>7-8</td>
         </tr>
@@ -80,20 +88,20 @@ The table consists 3 columns with Names of sports , the reason why that sport co
      <p>
    <a href="https://stackoverflow.com/questions/36580129/making-params-required-in-function">Link to Javascript stackoverflow</a>
    </p>
-
 <pre>
-const&nbsp;isRequired&nbsp;=&nbsp;()&nbsp;=&gt;&nbsp;{&nbsp;throw&nbsp;new&nbsp;Error(&#39;param&nbsp;is&nbsp;required&#39;);&nbsp;};
+const isRequired = () => { throw new Error('param is required'); };
 
-const&nbsp;hello&nbsp;=&nbsp;(name&nbsp;=&nbsp;isRequired())&nbsp;=&gt;&nbsp;{&nbsp;console.log(`hello&nbsp;&sect;{name}`)&nbsp;};
+const hello = (name = isRequired()) => { console.log(`hello ${name}`) };
 
-//&nbsp;These&nbsp;will&nbsp;throw&nbsp;errors
+// These will throw errors
 hello();
 hello(undefined);
 
-//&nbsp;These&nbsp;will&nbsp;not
+// These will not
 hello(null);
-hello(&#39;David&#39;);
+hello('David');
 </pre>
+
     <a href="https://css-tricks.com/snippets/javascript/required-parameters-for-functions-in-javascript/">Link to CSS javascript</a>
    </body>
 
